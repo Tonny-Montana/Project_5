@@ -1,0 +1,3 @@
+sudo docker rm -f (sudo docker ps -a -q)
+alias docker ='sudo docker'
+docker inspect --format '{{.NetworkSettings.IPAddress}}' docker name
